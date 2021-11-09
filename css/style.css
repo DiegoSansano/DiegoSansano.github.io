@@ -1,8 +1,8 @@
 /*
- * Author by FreeHTML5.co
- * Twitter: https://twitter.com/fh5co
- * Facebook: https://fb.com/fh5co
- * URL: https://freehtml5.co
+ * Author by Diego Sansano Reboll
+ * Twitter: https://twitter.com/d_sansano7
+ * Instagram: https://www.instagram.com/d.sansano7/
+ * URL: 
  */
 /* Fonts */
 @font-face {
@@ -32,7 +32,7 @@
       width: 90%; } }
 
 .universal-h2 {
-  font-size: 30px;
+  font-size: 48px;
   text-align: center;
   color: #222; }
   @media (max-width: 1250px) {
@@ -43,7 +43,6 @@
       font-size: 30px; } }
 
 .universal-h2-bckg {
-  background-image: url("../images/double-line.svg");
   background-repeat: no-repeat;
   background-position: center bottom; }
 
@@ -64,27 +63,27 @@
   color: #fff;
   display: none;
   position: fixed;
-  height: 80%;
-  width: 600%;
+  height: 100%;
+  width: 100%;
   top: 0px;
   left: 0px;
   background: #000;
   opacity: 0.9; }
   .main-navigation .main-navigation__ul {
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     padding: 3%;
     border: 2px solid #fff;
     border-radius: 7px;
-    background-color: #c18f59; }
+    background-color: #226630; }
     .main-navigation .main-navigation__ul li {
       margin-bottom: 20px;
       list-style: none; }
     .main-navigation .main-navigation__ul a {
       color: #fff;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 600;
       text-decoration: none;
       text-transform: uppercase;
@@ -103,21 +102,21 @@
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 3px;
-  background-color: #c18f59;
+  background-color: #226630;
   margin: 6px 0;
   transition: 0.4s; }
 
 .change .bar1 {
   transform: rotate(-45deg) translate(-6px, 6px);
-  background-color: #c18f59; }
+  background-color: #226630; }
 
 .change .bar2 {
   opacity: 0;
-  background-color: #c18f59; }
+  background-color: #226630; }
 
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -7px);
-  background-color: #c18f59; }
+  background-color: #226630; }
 
 .stop-scroll {
   overflow: hidden; }
@@ -220,7 +219,7 @@
 
 .brand-span {
   font-size: 14px;
-  color: #c18f59; }
+  color: #226630; }
 
 .brand-button {
   display: inline-block;
@@ -228,7 +227,7 @@
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #c18f59;
+  color: #226630;
   border: 1px solid #fff;
   transition: 0.3s ease; }
   .brand-button:hover, .brand-button:focus {
@@ -296,8 +295,8 @@
 .span-arrow {
   padding: 10px 15px;
   cursor: pointer;
-  color: #c18f59;
-  border: 1px solid #c18f59;
+  color: #226630;
+  border: 1px solid #226630;
   border-radius: 50%;
   transition: 0.3s ease; }
   .span-arrow:hover {
@@ -330,7 +329,7 @@
     .portfolio-wrapper .portfolio__name span {
       font-size: 90px;
       line-height: 75px;
-      color: #c18f59;
+      color: #226630;
       font-family: "Calisto-MT-Bold"; }
       @media (max-width: 992px) {
         .portfolio-wrapper .portfolio__name span {
@@ -363,7 +362,7 @@
   .about-me__text p {
     margin-bottom: 35px;
     line-height: 24px;
-    color: #c18f59; }
+    color: #226630; }
     .about-me__text p span {
       font-size: 48px;
       color: #fff; }
@@ -375,7 +374,7 @@
   .about-me__text h4 {
     margin-bottom: 7px;
     font-size: 25px;
-    color: #c18f59; }
+    color: #226630; }
   .about-me__text .p-white {
     margin-bottom: 0;
     color: #fff; }
@@ -401,7 +400,7 @@
     .fh5co-books .books-brand-button .brand-button {
       font-size: 16px;
       text-transform: none;
-      border-color: #c18f59; }
+      border-color: #226630; }
       .fh5co-books .books-brand-button .brand-button:hover {
         border-color: #777; }
   @media (max-width: 1250px) {
@@ -450,7 +449,7 @@
     font-size: 18px;
     font-weight: 600;
     font-style: italic;
-    color: #c18f59; }
+    color: #226630; }
   @media (max-width: 1250px) {
     .single-book {
       margin-right: 10px; }
@@ -483,7 +482,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #c18f59;
+    background-color: #226630;
     opacity: 0.9; }
   .fh5co-counter .site-container {
     position: relative;
@@ -566,7 +565,7 @@
       display: block;
       margin-bottom: 15px;
       font-size: 14px;
-      color: #c18f59;
+      color: #226630;
       font-family: "Calisto-MT-Bold"; }
     .single-blog .single-blog__text p {
       color: #777;
@@ -593,7 +592,7 @@
           font-size: 13px;
           line-height: 16px; } }
   .single-blog:nth-child(even) h4 {
-    color: #c18f59; }
+    color: #226630; }
   @media (max-width: 1250px) {
     .single-blog .single-blog__img img {
       width: 100%;
@@ -661,7 +660,7 @@
   .fh5co-quotes h4 {
     margin-bottom: 5px;
     font-size: 25px;
-    color: #c18f59; }
+    color: #226630; }
   .fh5co-quotes .slick-arrow {
     bottom: -8%; }
   .fh5co-quotes .slick-prev {
@@ -693,7 +692,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #c18f59;
+    background-color: #226630;
     opacity: 0.9; }
   .fh5co-social .site-container {
     position: relative;
@@ -764,7 +763,7 @@
     .footer-info .footer-info__left img {
       margin-bottom: 10px; }
     .footer-info .footer-info__left p {
-      color: #c18f59; }
+      color: #226630; }
     @media (max-width: 620px) {
       .footer-info .footer-info__left {
         margin-right: 0;
@@ -798,7 +797,7 @@
       padding: 20px;
       border: 1px solid #404040;
       background-color: #282828;
-      color: #c18f59; }
+      color: #226630; }
       .footer-contact-form .contact-form__input input::placeholder {
         color: #aaa; }
       @media (max-width: 1250px) {
@@ -816,13 +815,13 @@
     border: 1px solid #404040;
     background-color: #282828;
     resize: none;
-    color: #c18f59; }
+    color: #226630; }
   .footer-contact-form .submit-button {
     padding: 19px 50px;
     text-transform: uppercase;
     font-size: 12px;
     color: #fff;
-    background-color: #c18f59;
+    background-color: #226630;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -843,7 +842,7 @@
   .footer-bottom-inner p {
     color: #777; }
   .footer-bottom-inner a {
-    color: #c18f59;
+    color: #226630;
     text-decoration: none;
     transition: 0.3s ease; }
     .footer-bottom-inner a:hover {
