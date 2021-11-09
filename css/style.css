@@ -657,7 +657,9 @@
         font-size: 14px;
         line-height: 19px; } }
   .fh5co-quotes img {
-    margin: 0 auto 5px; }
+    margin: 0 auto 5px;
+    color: #226630;	}
+	
   .fh5co-quotes h4 {
     margin-bottom: 5px;
     font-size: 25px;
